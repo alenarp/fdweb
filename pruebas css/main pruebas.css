@@ -1,3 +1,4 @@
+/* Estilos básicos */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f3f9;
@@ -8,24 +9,25 @@ body {
 }
 
 h1, h2 {
-    color: #b34b9c; 
+    color: #b34b9c; /* Lila oscuro para los títulos */
 }
 
 h1.emphasis {
     font-size: 3rem;
     text-align: center;
     margin-top: 20px;
-    color: #df6da6; 
+    color: #ff007f; /* Color rosa brillante */
 }
 
+/* Barra de Navegación */
 nav {
-    background-color: #d7a9d1; 
-    padding: 20px;
+    background-color: #d7a9d1; /* Color de fondo rosa claro */
+    padding: 10px;
     text-align: center;
 }
 
 nav ul {
-    list-style-type:none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
@@ -37,17 +39,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #3a2e66;
+    color: #3a2e66; /* Color lila oscuro */
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-    color: #df6da6; 
+    color: #ff007f; /* Cambia a rosa brillante al pasar el mouse */
 }
 
+/* Botones */
 .btn {
-    background-color: #eea7cb; 
+    background-color: #ff007f; /* Rosa brillante */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -57,13 +60,14 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #b34b9c; 
+    background-color: #b34b9c; /* Lila oscuro al pasar el mouse */
 }
 
+/* Secciones */
 section {
     padding: 40px 20px;
     margin: 20px 0;
-    background-color: #ffffff; 
+    background-color: #ffffff; /* Blanco para las secciones */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -74,13 +78,14 @@ section p {
 }
 
 section#inicio {
-    background-color: #f9d0e1;
+    background-color: #f9d0e1; /* Rosa claro */
 }
 
 section#productos {
-    background-color: #e7c8e8; 
+    background-color: #e7c8e8; /* Lila muy claro */
 }
 
+/* Imágenes y Videos */
 .media {
     text-align: center;
     margin-top: 40px;
@@ -95,9 +100,10 @@ section#productos {
 .media video {
     max-width: 100%;
     height: auto;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
+/* Footer */
 footer {
     background-color: #d7a9d1;
     text-align: center;
