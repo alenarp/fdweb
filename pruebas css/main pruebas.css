@@ -6,6 +6,8 @@ body {
     padding: 0;
     color: #3a2e66;
     line-height: 1.6;
+   
+        font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {

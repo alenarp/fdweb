@@ -5,10 +5,22 @@ body {
     padding: 0;
     color: #3a2e66;
     line-height: 1.6;
+    font-weight: 600;
+    font-style: oblique;
+
+    h1 {
+        animation: fadeIn 2s ease-in-out 1 forwards;
+    } 
+
+    h2 {
+        animation: colorCycle 10s ease-in-out 1 forwards;
+    } 
+
 }
 
 h1, h2 {
     color: #b34b9c; 
+    
 }
 
 h1.emphasis {
@@ -54,9 +66,12 @@ nav ul li a:hover {
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
+    transition: top 0,2s ease ;
+    
 }
 
 .btn:hover {
+    top: -3px ; 
     background-color: #b34b9c; 
 }
 
@@ -103,4 +118,27 @@ footer {
     text-align: center;
     padding: 15px;
     color: white;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes colorCycle {
+	0% {
+		color: red;
+	}
+	33% {
+		color: blue;
+	}
+	66% {
+		color: green;
+	}
+	100% {
+		color: red;
+	}
 }
