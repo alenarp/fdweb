@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <style>.caja {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+    }
+
+        .imagenuntercio {
+            width:50% ;
+            height: auto ;
+            float: left;
+        	margin-right: 10px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: #333;
+	padding: 20px;
+    flex-direction: row;
+}
+.menu a {
+	color: rgb(15, 49, 241);
+	text-decoration: none;
+    background-color: aliceblue;
+    flex:1 ;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="caja"></div>
+    <div>
+        <img src="https://cdn0.expertoanimal.com/es/posts/5/8/1/cuidados_de_una_capibara_20185_orig.jpg" class="imagenuntercio" id="fotocapibara" />
+		<p>Este texto fluirá alrededor de la imagen.</p>
+    </div>
+    <div class="galeria">
+        <img src="https://zoobarcelona.cat/sites/default/files/animal/2016-12/1920x819%20HYDHYD.jpg" />
+        <img src="/assets/images/img2.jpg" />
+        <img src="/assets/images/img3.jpg" />
+    </div>
+</body>
+</html>
